@@ -235,7 +235,7 @@ In this section, we'll be introducing another core concept of React, [hooks](htt
 
 ### State (`useState`)
 
-To set state with `useState` we will first need to import it in our `App.js` component. Going back to our `App.js`, first let's import in the `useState` hook from React.
+To set state with `useState` we will first need to import it at the top of our `App.js` component. Going back to our `App.js`, first let's import in the `useState` hook from React.
 
 ```jsx
 import React, { useState } from 'react';
