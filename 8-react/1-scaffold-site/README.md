@@ -210,7 +210,7 @@ module.exports = {
 
 #### Purge styles and include Tailwind in CSS
 
-Because Tailwind is a library with default utility classes, CSS will be need to compiled for production. It is good practive to purge your project of unused styles in production builds so that load time is faster In your tailwind.config.js file, configure the purge option with the paths to all of your components so Tailwind can tree-shake unused styles in production builds:
+Because Tailwind is a library with default utility classes, CSS will be need to compiled for production. It is good practice to purge your project of unused styles in production builds so that load time is faster In your tailwind.config.js file, configure the purge option with the paths to all of your components so Tailwind can tree-shake unused styles in production builds:
 
 ```diff
 // tailwind.config.js
