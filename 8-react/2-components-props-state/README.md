@@ -231,7 +231,7 @@ yarn add nanoid
 
 In this section, we'll be introducing another core concept of React, [hooks](https://reactjs.org/docs/hooks-intro.html). Hooks make function components stateful using these functions that hook into our components without using the 'class' concept in React. Currently, we are not using any data source of outputting any dynamic data just yet. But the idea is to make our data dynamic, so it's time to create your first Reactive variable and set your app's state. We will make use of the mock data structure we created earlier and pull it in as our state source. The idea of this data is to mock what an API (Application Programming Interface) data source might look like. We will not be going into APIs in this lesson but will utilize the idea of setting the state and passing it down into our components.
 
-**State** is an attribute that is used to store information. It contains all the app component data that can dynamically change when the component re-renders. This means that the components has the ability to keep track of changing data. In a functional component, we can utilize the hook [`useState.](https://reactjs.org/docs/hooks-overview.html#state-hook)`. 
+**State** is an attribute that is used to store information. It contains all the app component data that can dynamically change when the component re-renders. This means that the components has the ability to keep track of changing data. In a functional component, we can utilize the hook [useState](https://reactjs.org/docs/hooks-overview.html#state-hook). 
 
 ### State (`useState`)
 
