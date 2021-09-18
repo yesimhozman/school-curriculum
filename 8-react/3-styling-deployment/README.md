@@ -2,15 +2,15 @@
 
 ### Introduction
 
-In this section, we will finalize our portfolio project by first going over to how style in [Tailwind](https://tailwindcss.). The [Tailwind documentation](https://tailwindcss.com/docs) will be your best friend during this section, as it will give you all the style utilities to make your portfolio amazing! we will then wrap by going over a couple hosting provider deployment options for you to ship your portfolio live!
+In this section, we will finalize our portfolio project by first going over to how style in [Tailwind](https://tailwindcss.). The [Tailwind documentation](https://tailwindcss.com/docs) will be your best friend during this section, as it will give you all the style utilities to make your portfolio amazing! We will then conclude the lessons by going over a couple hosting provider deployment options for you to ship your portfolio live!
 
 ## Tailwind and BEM
 
-Before we get into creating our style files, lets retract and look at the `Hero` and `CtaButton` components we created. You may have noticed in the outer most parent div we give our class as specific name `className="hero"`, and our the nested divs as `hero__container` and `hero__title`. We are following by [BEM standards](http://getbem.com/introduction/) here. It is one of the most efficient and ledgeable ways to structure out your CSS and SASS. You can read more into details of the other benefits of BEM in the link shared above. We have decided to go with BEM in this project because extracting out styling to style files will help to keep your project organized and ultimately your code readable and legible. Tailwind's does not recommended one over the other, using utility class names inline or extracting CSS or SASS to other files. In fact, Tailwind has documentation on [how to set your preprocessors](https://tailwindcss.com/docs/using-with-preprocessors) in your project.
+Before we get into creating our style files, lets retract and look at the `Hero` and `CtaButton` components we created. You may have noticed in the outer most parent div we give our class as specific name `className="hero"`, and our the nested divs as `hero__container` and `hero__title`. We are following by [BEM standards](http://getbem.com/introduction/) here. It is one of the most efficient and legible ways to structure out your CSS and SASS. You can read more into details of the other benefits of BEM in the link shared above. We have decided to go with BEM in this project because extracting out styling to style files will help to keep your project organized and ultimately your code readable and legible. Tailwind does not recommended one over the other, using utility class names inline or extracting CSS or SASS to other files. In fact, Tailwind has documentation on [how to set your preprocessors](https://tailwindcss.com/docs/using-with-preprocessors) in your project.
 
 # Styling files
 
-Now, lets get started on creating some of our starting styles files. First create a `tailwind.scss` folder in `index.scss` in `src`. Open up `tailwind.js` and copy the below code in. 
+Now, let's get started on creating some of our starting styles files. First create a `tailwind.scss` folder in `index.scss` in `src`. Open up `tailwind.js` and copy the below code: 
 
 ```css
 @import "tailwindcss/base";
