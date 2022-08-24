@@ -4,7 +4,7 @@
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## Pre-Lecture Quiz
-[Pre-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/11)
+[Pre-lecture quiz](https://ff-quizzes.netlify.app/quiz/11)
 
 Making decisions and controlling the order in which your code runs makes your code reusable and robust. This section covers the syntax for controlling data flow in JavaScript and its significance when used with Boolean data types
 
@@ -162,7 +162,7 @@ Create a program that is written first with logical operators, and then rewrite 
 
 ---
 ## Post-Lecture Quiz
-[Post-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/12)
+[Post-lecture quiz](https://ff-quizzes.netlify.app/quiz/12)
 
 ## Review & Self Study
 
